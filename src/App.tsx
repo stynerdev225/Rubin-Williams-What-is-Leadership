@@ -15,27 +15,31 @@ export default function App() {
           <div className="absolute bottom-6 right-6 w-24 h-24 border-r-2 border-b-2 border-gray-100"></div>
 
           <div className="relative">
+            <p className="text-center text-gray-400 text-xl mb-4 font-['Cormorant_Garamond'] tracking-[0.15em]">Leadership Insights</p>
             <h1 className="text-6xl font-['Playfair_Display'] font-light mb-20 text-gray-800 text-center tracking-[0.2em] leading-relaxed">
               What is Leadership?
+              <div className="h-1 w-48 bg-blue-600 mx-auto mt-6"></div>
             </h1>
 
             <div className="text-gray-700 leading-loose whitespace-pre-wrap font-['Cormorant_Garamond'] text-2xl tracking-wide">
-              {`True leadership isn't a crown worn for show, nor a whip cracked for control. It's a quiet strength, a steady hand guiding not from within the pool that's available.
+              {`True leadership isn't a crown worn for show, nor a whip cracked for control. It's a quiet strength, a steady hand guiding not from above, but from within the pool that's available.
 
-It's not about the loudest voice, but the clearest vision, articulated with humility and conviction.
+It's not about the loudest voice, but the clearest vision, articulated with
+humility and conviction.
 
 A true leader doesn't hoard power—they distribute it, understanding that a collective of empowered individuals achieves far more than a single figurehead. They see the potential in others, even when those individuals might not see it themselves, and they cultivate that potential with patient mentorship and unwavering belief. They are architects of growth, not just for the company, but for the people within it.
 
-Empathy is their compass. They listen not just to respond, but to understand the fears, the aspirations, and the unique perspectives that each person brings. They recognize that behind every task lies a human being with their own challenges and triumphs.
-
-This understanding fuels their decisions, ensuring that progress isn't achieved at the cost of individual well-being.
+Empathy is their compass. They listen not just to respond, but to understand the fears, the aspirations, and the unique perspectives that each person brings. They recognize that behind every task lies a human being with their own challenges and triumphs. This understanding fuels their decisions, ensuring that progress isn't achieved at the cost of individual well-being.
 
 Integrity is the bedrock of their influence. Their actions align with their words, building trust that runs deeper than any title. They are transparent and honest even when the truth is difficult, fostering an environment of open communication and mutual respect. They understand that true authority is earned, not demanded.
 
 True leaders are not immune to mistakes. In fact, they embrace them as opportunities for learning and growth, both for themselves and for their team. They take responsibility for failures and share the credit for successes, understanding that leadership is about collective achievements.
 
-Ultimately, true leadership is about service. It's about putting the needs of the team and the shared vision above personal ambition. It's about inspiring others to become the best versions of themselves, and to work together toward a common goal. It's a journey of continuous learning, adaptation, and unwavering commitment to the well-being and progress of those they lead. It's a quiet force that shapes not just outcomes, but the very character of the collective it guides.
-
+`}
+              <div className="pl-6 pr-4 py-4 mt-4 mb-6 border-l-4 border-blue-600 bg-white rounded-r-lg shadow-sm text-gray-900 font-medium italic">
+                {`Ultimately, true leadership is about service. It's about putting the needs of the team and the shared vision above personal ambition. It's about inspiring others to become the best versions of themselves, and to work together toward a common goal. It's a journey of continuous learning, adaptation, and unwavering commitment to the well-being and progress of those they lead. It's a quiet force that shapes not just outcomes, but the very character of the collective it guides.`}
+              </div>
+              {`
 This piece written to describe true leadership (from my perspective) is composed of my own words and phrasing. While the concepts discussed (empathy, integrity, vision etc.) are common themes in discussions about leadership, the specific way I've articulated them, the metaphors and imagery used, and the overall flow of the piece are unique to my generation.`}</div>
 
             <footer className="mt-24 pt-12 border-t border-gray-100">
